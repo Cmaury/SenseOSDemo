@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A80CB04D1C473DE200BEE7E3 /* GestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CB04C1C473DE200BEE7E3 /* GestureController.swift */; };
+		A80CB04D1C473DE200BEE7E3 /* HeadsetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CB04C1C473DE200BEE7E3 /* HeadsetConnection.swift */; };
 		A86DE6661C45B4AB0050541A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86DE6651C45B4AB0050541A /* AppDelegate.swift */; };
 		A86DE6681C45B4AB0050541A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86DE6671C45B4AB0050541A /* ViewController.swift */; };
 		A86DE66B1C45B4AB0050541A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86DE6691C45B4AB0050541A /* Main.storyboard */; };
@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A80CB04C1C473DE200BEE7E3 /* GestureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureController.swift; sourceTree = "<group>"; };
+		A80CB04C1C473DE200BEE7E3 /* HeadsetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadsetConnection.swift; sourceTree = "<group>"; };
 		A80CB04E1C4740A400BEE7E3 /* IHS-Bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IHS-Bridging-header.h"; sourceTree = "<group>"; };
 		A86DE6621C45B4AB0050541A /* SenseOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenseOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86DE6651C45B4AB0050541A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		A86DE6591C45B4AB0050541A = {
 			isa = PBXGroup;
 			children = (
-				A86DE6641C45B4AB0050541A /* SenseOS=Demo */,
+				A86DE6641C45B4AB0050541A /* SenseOSDemo */,
 				A86DE6AB1C46E0000050541A /* Frameworks */,
 				A86DE6791C45B4AC0050541A /* SenseOS=DemoTests */,
 				A86DE6841C45B4AC0050541A /* SenseOS=DemoUITests */,
@@ -133,18 +133,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A86DE6641C45B4AB0050541A /* SenseOS=Demo */ = {
+		A86DE6641C45B4AB0050541A /* SenseOSDemo */ = {
 			isa = PBXGroup;
 			children = (
 				A86DE6651C45B4AB0050541A /* AppDelegate.swift */,
 				A86DE6671C45B4AB0050541A /* ViewController.swift */,
-				A80CB04C1C473DE200BEE7E3 /* GestureController.swift */,
-				A80CB04E1C4740A400BEE7E3 /* IHS-Bridging-header.h */,
+				A80CB04C1C473DE200BEE7E3 /* HeadsetConnection.swift */,
 				A86DE6691C45B4AB0050541A /* Main.storyboard */,
 				A86DE66C1C45B4AC0050541A /* Assets.xcassets */,
+				A80CB04E1C4740A400BEE7E3 /* IHS-Bridging-header.h */,
 				A86DE66E1C45B4AC0050541A /* LaunchScreen.storyboard */,
 				A86DE6711C45B4AC0050541A /* Info.plist */,
 			);
+			name = SenseOSDemo;
 			path = "SenseOS=Demo";
 			sourceTree = "<group>";
 		};
@@ -318,7 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86DE6681C45B4AB0050541A /* ViewController.swift in Sources */,
-				A80CB04D1C473DE200BEE7E3 /* GestureController.swift in Sources */,
+				A80CB04D1C473DE200BEE7E3 /* HeadsetConnection.swift in Sources */,
 				A86DE6661C45B4AB0050541A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
