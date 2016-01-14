@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A86DE6611C45B4AB0050541A"
-               BuildableName = "SenseOS=Demo.app"
-               BlueprintName = "SenseOS=Demo"
-               ReferencedContainer = "container:SenseOS=Demo.xcodeproj">
+               BuildableName = "SenseOSDemo.app"
+               BlueprintName = "SenseOSDemo"
+               ReferencedContainer = "container:SenseOSDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A86DE6751C45B4AC0050541A"
-               BuildableName = "SenseOS=DemoTests.xctest"
-               BlueprintName = "SenseOS=DemoTests"
-               ReferencedContainer = "container:SenseOS=Demo.xcodeproj">
+               BuildableName = "SenseOSDemo.xctest"
+               BlueprintName = "SenseOSDemoTests"
+               ReferencedContainer = "container:SenseOSDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A86DE6801C45B4AC0050541A"
-               BuildableName = "SenseOS=DemoUITests.xctest"
-               BlueprintName = "SenseOS=DemoUITests"
-               ReferencedContainer = "container:SenseOS=Demo.xcodeproj">
+               BuildableName = "SenseOSDemo.xctest"
+               BlueprintName = "SenseOSDemoUITests"
+               ReferencedContainer = "container:SenseOSDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A86DE6611C45B4AB0050541A"
-            BuildableName = "SenseOS=Demo.app"
-            BlueprintName = "SenseOS=Demo"
-            ReferencedContainer = "container:SenseOS=Demo.xcodeproj">
+            BuildableName = "SenseOSDemo.app"
+            BlueprintName = "SenseOSDemo"
+            ReferencedContainer = "container:SenseOSDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A86DE6611C45B4AB0050541A"
-            BuildableName = "SenseOS=Demo.app"
-            BlueprintName = "SenseOS=Demo"
-            ReferencedContainer = "container:SenseOS=Demo.xcodeproj">
+            BuildableName = "SenseOSDemo.app"
+            BlueprintName = "SenseOSDemo"
+            ReferencedContainer = "container:SenseOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A86DE6611C45B4AB0050541A"
-            BuildableName = "SenseOS=Demo.app"
-            BlueprintName = "SenseOS=Demo"
-            ReferencedContainer = "container:SenseOS=Demo.xcodeproj">
+            BuildableName = "SenseOSDemo.app"
+            BlueprintName = "SenseOSDemo"
+            ReferencedContainer = "container:SenseOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

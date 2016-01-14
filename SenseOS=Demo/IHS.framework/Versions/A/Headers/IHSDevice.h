@@ -422,7 +422,7 @@ typedef NS_ENUM(NSInteger, IHSAudioErrorCodes) {
  @param parentViewController
                         The view controller that the device selection should be placed "on top of".
  */
-- (void)showDeviceSelection:(UIViewController*)parentViewController;
+//- (void)showDeviceSelection:(UIViewController*)parentViewController;
 
 
 #pragma mark 3D audio handling
