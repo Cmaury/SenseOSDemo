@@ -12,10 +12,18 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var ConsolLog: UITextView!
     
-    override func viewDidAppear(animated: Bool) {
-        ConsolLog.text = "\(headset.accelerometerData)"
+    @IBOutlet weak var ConnectionStateLabel: UILabel!
+    
+    var headset = 
+    
+    override func viewDidLoad() {
+        connectToHeadset()
+        ConsolLog.text = ConsolLog.text + "connections state is " + "\(headset.connectionState)"
+        print("connections state is \(headset.connectionState)")
+        ConsolLog.text = ConsolLog.text + "accelerometer data \(headset.pitch)" + "," + "\(headset.roll)" + "," + "\(headset.yaw)"
     }
-
+    
+    
 
 
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Az0-Th-86q">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -24,22 +24,41 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Connection State:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4E-dm-45c">
+                                <rect key="frame" x="20" y="20" width="138" height="56"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Disconnected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wso-Jx-5ry">
+                                <rect key="frame" x="171" y="37" width="170" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Wso-Jx-5ry" firstAttribute="centerY" secondItem="bIQ-6j-3Z6" secondAttribute="centerY" id="2W1-1f-SqR"/>
+                            <constraint firstItem="qVH-Cp-HUa" firstAttribute="top" secondItem="Wso-Jx-5ry" secondAttribute="bottom" constant="185" id="DM2-Y8-kTa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wso-Jx-5ry" secondAttribute="trailing" constant="239" id="FbQ-HK-ByW"/>
                             <constraint firstItem="qVH-Cp-HUa" firstAttribute="top" secondItem="E1W-3i-5WP" secondAttribute="bottom" constant="225" id="HCu-ah-7H6"/>
                             <constraint firstItem="Rex-vM-KO2" firstAttribute="top" secondItem="qVH-Cp-HUa" secondAttribute="bottom" constant="182" id="JIT-c4-KPA"/>
+                            <constraint firstItem="z4E-dm-45c" firstAttribute="centerY" secondItem="bIQ-6j-3Z6" secondAttribute="centerY" id="cVY-zc-UDk"/>
                             <constraint firstItem="qVH-Cp-HUa" firstAttribute="leading" secondItem="bIQ-6j-3Z6" secondAttribute="leadingMargin" constant="84" id="eaX-69-g2J"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qVH-Cp-HUa" secondAttribute="trailing" constant="69" id="nMe-YL-On8"/>
+                            <constraint firstItem="z4E-dm-45c" firstAttribute="top" secondItem="E1W-3i-5WP" secondAttribute="bottom" id="qep-ze-Bml"/>
+                            <constraint firstItem="Wso-Jx-5ry" firstAttribute="top" secondItem="E1W-3i-5WP" secondAttribute="bottom" constant="17" id="zed-w0-P9J"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ConnectionStateLabel" destination="Wso-Jx-5ry" id="85F-k1-FbY"/>
                         <outlet property="ConsolLog" destination="qVH-Cp-HUa" id="Lvt-UV-gt1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SRh-fZ-gtk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="508" y="440"/>
+            <point key="canvasLocation" x="192" y="476"/>
         </scene>
     </scenes>
 </document>

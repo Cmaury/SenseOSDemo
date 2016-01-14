@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A80CB04D1C473DE200BEE7E3 /* HeadsetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CB04C1C473DE200BEE7E3 /* HeadsetConnection.swift */; };
+		A80CB04D1C473DE200BEE7E3 /* DeviceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CB04C1C473DE200BEE7E3 /* DeviceDelegate.swift */; };
 		A86DE6661C45B4AB0050541A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86DE6651C45B4AB0050541A /* AppDelegate.swift */; };
 		A86DE6681C45B4AB0050541A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86DE6671C45B4AB0050541A /* ViewController.swift */; };
 		A86DE66B1C45B4AB0050541A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86DE6691C45B4AB0050541A /* Main.storyboard */; };
@@ -27,6 +27,7 @@
 		A86DE6A61C46DF6C0050541A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DE6A51C46DF6C0050541A /* MobileCoreServices.framework */; };
 		A86DE6A81C46DF7B0050541A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DE6A71C46DF7B0050541A /* SystemConfiguration.framework */; };
 		A86DE6AA1C46DFB90050541A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DE6A91C46DFB90050541A /* libc++.tbd */; };
+		A86DE6AF1C484FE20050541A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86DE6AE1C484FE20050541A /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A80CB04C1C473DE200BEE7E3 /* HeadsetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadsetConnection.swift; sourceTree = "<group>"; };
+		A80CB04C1C473DE200BEE7E3 /* DeviceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDelegate.swift; sourceTree = "<group>"; };
 		A80CB04E1C4740A400BEE7E3 /* IHS-Bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IHS-Bridging-header.h"; sourceTree = "<group>"; };
 		A86DE6621C45B4AB0050541A /* SenseOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenseOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86DE6651C45B4AB0050541A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		A86DE6A51C46DF6C0050541A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A86DE6A71C46DF7B0050541A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A86DE6A91C46DFB90050541A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A86DE6AE1C484FE20050541A /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +140,8 @@
 			children = (
 				A86DE6651C45B4AB0050541A /* AppDelegate.swift */,
 				A86DE6671C45B4AB0050541A /* ViewController.swift */,
-				A80CB04C1C473DE200BEE7E3 /* HeadsetConnection.swift */,
+				A80CB04C1C473DE200BEE7E3 /* DeviceDelegate.swift */,
+				A86DE6AE1C484FE20050541A /* Device.swift */,
 				A86DE6691C45B4AB0050541A /* Main.storyboard */,
 				A86DE66C1C45B4AC0050541A /* Assets.xcassets */,
 				A80CB04E1C4740A400BEE7E3 /* IHS-Bridging-header.h */,
@@ -254,6 +257,7 @@
 				TargetAttributes = {
 					A86DE6611C45B4AB0050541A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RL9PP7V9LK;
 					};
 					A86DE6751C45B4AC0050541A = {
 						CreatedOnToolsVersion = 7.2;
@@ -319,8 +323,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86DE6681C45B4AB0050541A /* ViewController.swift in Sources */,
-				A80CB04D1C473DE200BEE7E3 /* HeadsetConnection.swift in Sources */,
+				A80CB04D1C473DE200BEE7E3 /* DeviceDelegate.swift in Sources */,
 				A86DE6661C45B4AB0050541A /* AppDelegate.swift in Sources */,
+				A86DE6AF1C484FE20050541A /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +467,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SenseOS=Demo",
@@ -478,6 +485,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SenseOS=Demo",
